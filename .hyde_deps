@@ -1,3 +1,4 @@
+!!python/unicode 'CNAME': []
 !!python/unicode 'about.html': [base.j2, macros.j2, analytics.j2]
 !!python/unicode 'blog/angry-post.html': [blog.j2, macros.j2, analytics.j2, base.j2]
 !!python/unicode 'blog/atom.xml': [atom.j2, macros.j2]
