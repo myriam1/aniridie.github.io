@@ -1,0 +1,25 @@
+{% extends "base.j2" %}
+
+<section class='main">
+{% block main %}
+{% block home_main %}
+{% endblock home_main %}
+</section>
+
+{% from "macros.j2" import render_excerpt with context %}
+<section class="blog_excerpt">
+{% set latest = resource.node.walk_resources_sorted_by_time()|first %}
+
+{% if latest -%}
+<hr>
+<h1 class="section_title">{{ resource.meta.title_news_section|upper }}</h1>
+
+{{ render_excerpt(latest, 'post') }}
+
+<a class="button white medium"
+    href="{{ content_url(latest.url) }}">Read more&hellip;</a>
+
+{%- endif %}
+
+</section>
+{% endblock main %}

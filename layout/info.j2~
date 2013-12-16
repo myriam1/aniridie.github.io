@@ -1,0 +1,38 @@
+{% extends "base.j2" %}
+
+{% block main -%}
+<article class="post">
+
+<section class+"info_eu">
+{{ resource.meta.eu }}:{{ resource.meta.urls.eu }}
+</section>
+
+<h1 class="title">
+    <a href="{{ content_url(resource.url) }}">
+        {{ resource.meta.title }}
+    </a>
+</h1>
+
+{% if resource.meta.tags %}
+<ul class="tags clear">
+{% for tag in resource.meta.tags %}
+<li>
+    <a class="small" href="{{ content_url('info/tags/'~tag~'.html') }}">
+        {{ tag }}
+    </a>
+</li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% filter markdown|typogrify -%}
+{% mark info -%}
+{% markdown %}
+{% block main_info -%}{%- endblock %}
+{% endmarkdown %}
+{%- endmark %}
+{%- endfilter %}
+
+</article>
+
+{%- endblock %}

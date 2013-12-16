@@ -1,0 +1,29 @@
+language: nl
+site:
+    title: "Aniridie Belgi  "
+    description: "Een groep voor en door Belgische aniridie patinten"
+menu:
+    -
+        name: Start
+        description: Start pagina
+        css_class: home
+        type: page
+        url: index.html
+    -
+        name: Nieuws
+        description: Nieuws
+        css_class: blog
+        type: node
+        url: news
+    -
+        name: Info
+        description: info
+        css_class: info
+        type: node
+        url: info
+    -
+        name: Over ons
+        description: Over ons
+        css_class: about
+        type: page
+        url: about.html
