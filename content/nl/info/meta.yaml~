@@ -1,4 +1,0 @@
-extends: info.j2
-default_block: main_info
-listable: true
-eu: Meer informatie ook beschikbaar op <a href="http://www.aniridia.eu/">Aniridia Europe</a>
