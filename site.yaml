@@ -6,6 +6,7 @@ plugins:
     - hyde.ext.plugins.meta.MetaPlugin
     - hyde.ext.plugins.meta.AutoExtendPlugin
     - hyde.ext.plugins.meta.SorterPlugin
+    - hyde.ext.plugins.meta.GrouperPlugin
     - hyde.ext.plugins.meta.TaggerPlugin
     - hyde.ext.plugins.text.SyntextPlugin
     - hyde.ext.plugins.text.TextlinksPlugin
@@ -25,6 +26,20 @@ sorter:
         filters:
             source.kind: html
             meta.listable: true
+grouper:
+    category:
+        sorter: time
+        description: groups articles in different categories.
+        groups:
+            -
+                name: news
+                description: groups all news articles
+            -
+                name: info
+                description: groups all info pages
+            -
+                name: general
+                description: groups all remaining articles in a default group general.
 tagger:
     sorter: time
     archives:

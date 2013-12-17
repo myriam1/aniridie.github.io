@@ -1,4 +1,5 @@
 extends: info.j2
+category: info
 default_block: main_info
 listable: true
 eu: Meer informatie ook beschikbaar op

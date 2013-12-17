@@ -1,0 +1,6 @@
+{% extends "info.j2" %}
+
+{% block main_info %}
+{% from "macros.j2" import render_overview with context  %}
+{{ render_overview (resource.meta.language, 'clearfix') }}
+{% endblock main_info %}

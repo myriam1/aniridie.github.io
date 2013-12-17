@@ -61,7 +61,7 @@
           {%- endblock %}
           {% block nav %}
           {% from "macros.j2" import render_nav with context %}
-          {{ render_nav(resource.meta.menu, node.rwalk(), resource.meta.language, 'main_nav') }}
+          {{ render_nav(resource.meta.menu, resource.meta.language, 'main_nav') }}
           {% endblock %}
           <div class="langnav">
           {{ resource.meta.language.translations }}

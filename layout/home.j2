@@ -8,7 +8,8 @@
 
 {% from "macros.j2" import render_excerpt with context %}
 <section class="blog_excerpt">
-{% set latest = resource.node.walk_resources_sorted_by_time()|first %}
+
+{% set latest =  node.walk_resources_grouped_by_news()|first %}
 
 {% if latest -%}
 <hr>

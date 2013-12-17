@@ -10,7 +10,7 @@
 </article>
 {% endmacro %}
 
-{% macro render_nav(menu, rwalk, subroot=None, cls=None) -%}
+{% macro render_nav(menu, subroot=None, cls=None) -%}
 {% if menu -%}
 <nav {{'class='~cls if cls }}>
     <ul>
@@ -43,4 +43,25 @@
     </ul>
 </nav>
 {%- endif %}
+{%- endmacro %}
+
+{% macro render_overview (subroot=None, cls=None) -%}
+<ul {{'class='~cls if cls }}>
+{% for res in resource.node.resources %}
+    {% if res.is_processable and not res.source_file.is_binary and res.meta.listable %}
+        <li>
+            <a href="{{ content_url(res.url) }}"> {{ res.meta.title }}</a> {{ res.meta.description }}
+        </li>
+    {% endif %}
+{% endfor %}
+{% for child in resource.node.child_nodes %}
+    {% for res in child.resources %}
+        {% if res.is_processable and not res.source_file.is_binary and not res.meta.listable %}
+            <li>
+                <a href="{{ content_url(res.url) }}"> {{ res.meta.title }}</a> {{ res.meta.description }}
+            </li>
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+</ul>
 {%- endmacro %}
