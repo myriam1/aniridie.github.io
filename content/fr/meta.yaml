@@ -1,0 +1,30 @@
+language: fr
+charset: utf-8
+site:
+    title: Aniridie Belgique
+    description: Un groupe de patients aniridique belges
+menu:
+    -
+        name: Accueil
+        description: page d'accueil
+        css_class: home
+        type: page
+        url: index.html
+    -
+        name: Nouvelles
+        description: Noevelles
+        css_class: blog
+        type: node
+        url: news
+    -
+        name: Info
+        description: info
+        css_class: info
+        type: node
+        url: info
+    -
+        name: A propos de nous
+        description: A propos de nous
+        css_class: about
+        type: page
+        url: about.html

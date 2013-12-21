@@ -4,7 +4,7 @@
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
 <!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="{{resource.meta.language}}" class="no-js"> <!--<![endif]-->
 <head>
   {% block starthead %}{% endblock starthead %}
   <meta charset="{{ resource.meta.charset }}">
@@ -64,7 +64,11 @@
           {{ render_nav(resource.meta.menu, resource.meta.language, 'main_nav') }}
           {% endblock %}
           <div class="langnav">
-          {{ resource.meta.language.translations }}
+          {% set trans = [] %}
+          {% for lang in resource.translations %}
+          {% do trans.append("<a href=\"%s\">%s</a>" % (content_url(lang.url), lang.meta.language)) %}
+          {% endfor %}
+          {{ trans|join(' | ') }}
           </div>
           </header>
           <section class="content">

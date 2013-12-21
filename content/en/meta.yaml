@@ -1,0 +1,30 @@
+language: en
+charset: utf-8
+site:
+    title: Aniridia Belgium
+    description: A group by and for belgian aniridia patients
+menu:
+    -
+        name: Start
+        description: Home page
+        css_class: home
+        type: page
+        url: index.html
+    -
+        name: News
+        description: News
+        css_class: blog
+        type: node
+        url: news
+    -
+        name: Info
+        description: info
+        css_class: info
+        type: node
+        url: info
+    -
+        name: About us
+        description: About us
+        css_class: about
+        type: page
+        url: about.html

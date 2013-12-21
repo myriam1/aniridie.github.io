@@ -16,6 +16,94 @@
 !!python/unicode 'blog/tags/sad.html': [macros.j2, base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/thoughts.html': [macros.j2, base.j2, tagged_posts.j2,
   analytics.j2]
+!!python/unicode 'de/about.html': [base.j2, macros.j2, analytics.j2]
+!!python/unicode 'de/index.html': [macros.j2, base.j2, home.j2, analytics.j2]
+!!python/unicode 'de/info/index.html': [info_overview.j2, info.j2, base.j2, analytics.j2,
+  macros.j2]
+!!python/unicode 'de/info/leben mit aniridie/allgemein.html': [info.j2, macros.j2,
+  analytics.j2, base.j2]
+!!python/unicode 'de/info/leben mit aniridie/index.html': [info_overview.j2, info.j2,
+  base.j2, analytics.j2, macros.j2]
+!!python/unicode 'de/info/leven met aniridie/algemeen.html': [info.j2, macros.j2,
+  analytics.j2, base.j2]
+!!python/unicode 'de/info/leven met aniridie/index.html': [info_overview.j2, info.j2,
+  base.j2, analytics.j2, macros.j2]
+!!python/unicode 'de/info/was ist aniridie.html': [info.j2, macros.j2, analytics.j2,
+  base.j2]
+!!python/unicode 'de/info/wat is aniridie.html': [info.j2, macros.j2, analytics.j2,
+  base.j2]
+!!python/unicode 'de/news/2013/AniridiaConference2014.html': [blog.j2, macros.j2,
+  analytics.j2, base.j2]
+!!python/unicode 'de/news/2013/aankondiging lancering.html': [blog.j2, macros.j2,
+  analytics.j2, base.j2]
+"de/news/2013/ank\xFCndigung start.html": [blog.j2, macros.j2, analytics.j2, base.j2]
+!!python/unicode 'de/news/2013/index.html': [listing.j2, macros.j2, base.j2, analytics.j2]
+!!python/unicode 'de/news/2014/index.html': [listing.j2, macros.j2, base.j2, analytics.j2]
+!!python/unicode 'de/news/2014/kb statuut chronische aandoening.html': [blog.j2, macros.j2,
+  analytics.j2, base.j2]
+!!python/unicode 'de/news/2014/kd status chronische erkrankung.html': [blog.j2, macros.j2,
+  analytics.j2, base.j2]
+!!python/unicode 'de/news/index.html': [listing.j2, macros.j2, base.j2, analytics.j2]
+!!python/unicode 'en/about.html': [base.j2, macros.j2, analytics.j2]
+!!python/unicode 'en/index.html': [macros.j2, base.j2, home.j2, analytics.j2]
+!!python/unicode 'en/info/index.html': [info_overview.j2, info.j2, base.j2, analytics.j2,
+  macros.j2]
+!!python/unicode 'en/info/leven met aniridie/algemeen.html': [info.j2, macros.j2,
+  analytics.j2, base.j2]
+!!python/unicode 'en/info/leven met aniridie/index.html': [info_overview.j2, info.j2,
+  base.j2, analytics.j2, macros.j2]
+!!python/unicode 'en/info/living with aniridia/general.html': [info.j2, macros.j2,
+  analytics.j2, base.j2]
+!!python/unicode 'en/info/living with aniridia/index.html': [info_overview.j2, info.j2,
+  base.j2, analytics.j2, macros.j2]
+!!python/unicode 'en/info/wat is aniridie.html': [info.j2, macros.j2, analytics.j2,
+  base.j2]
+!!python/unicode 'en/info/what is aniridia.html': [info.j2, macros.j2, analytics.j2,
+  base.j2]
+!!python/unicode 'en/news/2013/AniridiaConference2014.html': [blog.j2, macros.j2,
+  analytics.j2, base.j2]
+!!python/unicode 'en/news/2013/aankondiging lancering.html': [blog.j2, macros.j2,
+  analytics.j2, base.j2]
+!!python/unicode 'en/news/2013/announcement launch.html': [blog.j2, macros.j2, analytics.j2,
+  base.j2]
+!!python/unicode 'en/news/2013/index.html': [listing.j2, macros.j2, base.j2, analytics.j2]
+!!python/unicode 'en/news/2014/index.html': [listing.j2, macros.j2, base.j2, analytics.j2]
+!!python/unicode 'en/news/2014/kb statuut chronische aandoening.html': [blog.j2, macros.j2,
+  analytics.j2, base.j2]
+!!python/unicode 'en/news/2014/kd statute chronic disease.thml': [blog.j2, macros.j2,
+  analytics.j2, base.j2]
+!!python/unicode 'en/news/2014/rd statute chronic disease.html': [blog.j2, macros.j2,
+  analytics.j2, base.j2]
+!!python/unicode 'en/news/index.html': [listing.j2, macros.j2, base.j2, analytics.j2]
+!!python/unicode 'fr/about.html': [base.j2, macros.j2, analytics.j2]
+!!python/unicode 'fr/index.html': [macros.j2, base.j2, home.j2, analytics.j2]
+!!python/unicode 'fr/info/c''est quoi l''aniridie.html': [info.j2, macros.j2, analytics.j2,
+  base.j2]
+!!python/unicode 'fr/info/index.html': [info_overview.j2, info.j2, base.j2, analytics.j2,
+  macros.j2]
+!!python/unicode 'fr/info/leven met aniridie/algemeen.html': [info.j2, macros.j2,
+  analytics.j2, base.j2]
+!!python/unicode 'fr/info/leven met aniridie/index.html': [info_overview.j2, info.j2,
+  base.j2, analytics.j2, macros.j2]
+"fr/info/vivre avec l'aniridie/g\xE9n\xE9ral.html": [info.j2, macros.j2, analytics.j2,
+  base.j2]
+!!python/unicode 'fr/info/vivre avec l''aniridie/index.html': [info_overview.j2, info.j2,
+  base.j2, analytics.j2, macros.j2]
+!!python/unicode 'fr/info/wat is aniridie.html': [info.j2, macros.j2, analytics.j2,
+  base.j2]
+!!python/unicode 'fr/news/2013/AniridiaConference2014.html': [blog.j2, macros.j2,
+  analytics.j2, base.j2]
+!!python/unicode 'fr/news/2013/aankondiging lancering.html': [blog.j2, macros.j2,
+  analytics.j2, base.j2]
+!!python/unicode 'fr/news/2013/annonce de lancement.html': [blog.j2, macros.j2, analytics.j2,
+  base.j2]
+!!python/unicode 'fr/news/2013/index.html': [listing.j2, macros.j2, base.j2, analytics.j2]
+!!python/unicode 'fr/news/2014/ar statut maladie chronique.html': [blog.j2, macros.j2,
+  analytics.j2, base.j2]
+!!python/unicode 'fr/news/2014/index.html': [listing.j2, macros.j2, base.j2, analytics.j2]
+!!python/unicode 'fr/news/2014/kb statuut chronische aandoening.html': [blog.j2, macros.j2,
+  analytics.j2, base.j2]
+!!python/unicode 'fr/news/index.html': [listing.j2, macros.j2, base.j2, analytics.j2]
 !!python/unicode 'index.html': [macros.j2, base.j2, overview.j2, analytics.j2]
 !!python/unicode 'media/css/site.css': []
 !!python/unicode 'media/css/syntax.css': []
