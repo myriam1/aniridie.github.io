@@ -2,7 +2,7 @@ language: fr
 charset: utf-8
 site:
     title: Aniridie Belgique
-    description: Un groupe de patients aniridique belges
+    description: Un groupe de patients  belges atteints d'aniridie
 menu:
     -
         name: Accueil
@@ -12,7 +12,7 @@ menu:
         url: index.html
     -
         name: Nouvelles
-        description: Noevelles
+        description: Nouvelles
         css_class: blog
         type: node
         url: news
